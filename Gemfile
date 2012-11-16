@@ -36,3 +36,13 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :development, :test do
+  gem 'rspec-rails', '>= 2.0.0'
+end
+
+group :test do
+  gem 'simplecov-rcov'
+  gem 'ci_reporter'
+end
+
