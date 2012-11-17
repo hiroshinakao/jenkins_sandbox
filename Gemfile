@@ -46,3 +46,4 @@ group :test do
   gem 'ci_reporter'
 end
 
+gem 'therubyracer', :platform => :ruby
